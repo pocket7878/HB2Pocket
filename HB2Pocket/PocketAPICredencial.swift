@@ -8,4 +8,4 @@
 
 import Foundation
 
-let CONSUMER_KEY = "31411-642b77ce943c62eebd134d87";
+let CONSUMER_KEY = "YOUR CONSUMER KEY HERE";
