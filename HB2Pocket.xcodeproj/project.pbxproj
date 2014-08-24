@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69CCAB0619A9D2EC00C69974 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CCAB0519A9D2EC00C69974 /* json.swift */; };
+		69F0990319A9805500A1702F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0990219A9805500A1702F /* main.swift */; };
+		69F0990519A9805500A1702F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0990419A9805500A1702F /* AppDelegate.swift */; };
+		69F0990719A9805500A1702F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F0990619A9805500A1702F /* Images.xcassets */; };
+		69F0990A19A9805500A1702F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F0990819A9805500A1702F /* MainMenu.xib */; };
+		69F0991619A9805600A1702F /* HB2PocketTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0991519A9805600A1702F /* HB2PocketTests.swift */; };
+		69F0992219A9906B00A1702F /* HBEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0992119A9906B00A1702F /* HBEntry.swift */; };
+		69F0992619A992EE00A1702F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F0992319A992AE00A1702F /* Security.framework */; };
+		69F0992A19A9997B00A1702F /* PocketAPICredencial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F0992919A9997B00A1702F /* PocketAPICredencial.swift */; };
+		69F0994619A9A29600A1702F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F0994519A9A29600A1702F /* Foundation.framework */; };
+		69F0994819A9A2F900A1702F /* PocketAPI.h in Sources */ = {isa = PBXBuildFile; fileRef = 69F0993019A9A14500A1702F /* PocketAPI.h */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69F0994919A9A2FF00A1702F /* PocketAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F0993119A9A14500A1702F /* PocketAPI.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69F0994D19A9A39A00A1702F /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69F0994C19A9A39A00A1702F /* AppKit.framework */; };
+		69F0994E19A9A42700A1702F /* PocketAPILogin.h in Sources */ = {isa = PBXBuildFile; fileRef = 69F0993319A9A14500A1702F /* PocketAPILogin.h */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69F0994F19A9A42700A1702F /* PocketAPILogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F0993419A9A14500A1702F /* PocketAPILogin.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69F0995019A9A46700A1702F /* PocketAPIOperation.h in Sources */ = {isa = PBXBuildFile; fileRef = 69F0993519A9A14500A1702F /* PocketAPIOperation.h */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		69F0995119A9A46700A1702F /* PocketAPIOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F0993619A9A14500A1702F /* PocketAPIOperation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69F0991019A9805600A1702F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F098F519A9805500A1702F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F098FC19A9805500A1702F;
+			remoteInfo = HB2Pocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69CCAB0519A9D2EC00C69974 /* json.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
+		69F098FD19A9805500A1702F /* HB2Pocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HB2Pocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F0990119A9805500A1702F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F0990219A9805500A1702F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		69F0990419A9805500A1702F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		69F0990619A9805500A1702F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69F0990919A9805500A1702F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		69F0990F19A9805600A1702F /* HB2PocketTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HB2PocketTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		69F0991419A9805600A1702F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69F0991519A9805600A1702F /* HB2PocketTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HB2PocketTests.swift; sourceTree = "<group>"; };
+		69F0992119A9906B00A1702F /* HBEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HBEntry.swift; sourceTree = "<group>"; };
+		69F0992319A992AE00A1702F /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		69F0992719A9932800A1702F /* PocketSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocketSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		69F0992919A9997B00A1702F /* PocketAPICredencial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PocketAPICredencial.swift; sourceTree = "<group>"; };
+		69F0993019A9A14500A1702F /* PocketAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PocketAPI.h; path = HB2Pocket/PocketSDK/PocketAPI.h; sourceTree = "<group>"; };
+		69F0993119A9A14500A1702F /* PocketAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PocketAPI.m; path = HB2Pocket/PocketSDK/PocketAPI.m; sourceTree = "<group>"; };
+		69F0993219A9A14500A1702F /* PocketAPI+NSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PocketAPI+NSOperation.h"; path = "HB2Pocket/PocketSDK/PocketAPI+NSOperation.h"; sourceTree = "<group>"; };
+		69F0993319A9A14500A1702F /* PocketAPILogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PocketAPILogin.h; path = HB2Pocket/PocketSDK/PocketAPILogin.h; sourceTree = "<group>"; };
+		69F0993419A9A14500A1702F /* PocketAPILogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PocketAPILogin.m; path = HB2Pocket/PocketSDK/PocketAPILogin.m; sourceTree = "<group>"; };
+		69F0993519A9A14500A1702F /* PocketAPIOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PocketAPIOperation.h; path = HB2Pocket/PocketSDK/PocketAPIOperation.h; sourceTree = "<group>"; };
+		69F0993619A9A14500A1702F /* PocketAPIOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PocketAPIOperation.m; path = HB2Pocket/PocketSDK/PocketAPIOperation.m; sourceTree = "<group>"; };
+		69F0993719A9A14500A1702F /* PocketAPITypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PocketAPITypes.h; path = HB2Pocket/PocketSDK/PocketAPITypes.h; sourceTree = "<group>"; };
+		69F0993819A9A14500A1702F /* SFHFKeychainUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SFHFKeychainUtils.h; path = HB2Pocket/PocketSDK/SFHFKeychainUtils.h; sourceTree = "<group>"; };
+		69F0993919A9A14500A1702F /* SFHFKeychainUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SFHFKeychainUtils.m; path = HB2Pocket/PocketSDK/SFHFKeychainUtils.m; sourceTree = "<group>"; };
+		69F0994519A9A29600A1702F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69F0994A19A9A35B00A1702F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		69F0994C19A9A39A00A1702F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69F098FA19A9805500A1702F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F0994D19A9A39A00A1702F /* AppKit.framework in Frameworks */,
+				69F0994619A9A29600A1702F /* Foundation.framework in Frameworks */,
+				69F0992619A992EE00A1702F /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F0990C19A9805600A1702F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69F098F419A9805500A1702F = {
+			isa = PBXGroup;
+			children = (
+				69F0994419A9A17900A1702F /* PocketSDK */,
+				69F0992519A992CD00A1702F /* Frameworks */,
+				69F098FF19A9805500A1702F /* HB2Pocket */,
+				69F0991219A9805600A1702F /* HB2PocketTests */,
+				69F098FE19A9805500A1702F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69F098FE19A9805500A1702F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69F098FD19A9805500A1702F /* HB2Pocket.app */,
+				69F0990F19A9805600A1702F /* HB2PocketTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69F098FF19A9805500A1702F /* HB2Pocket */ = {
+			isa = PBXGroup;
+			children = (
+				69F0990419A9805500A1702F /* AppDelegate.swift */,
+				69CCAB0519A9D2EC00C69974 /* json.swift */,
+				69F0990619A9805500A1702F /* Images.xcassets */,
+				69F0990819A9805500A1702F /* MainMenu.xib */,
+				69F0990019A9805500A1702F /* Supporting Files */,
+				69F0992119A9906B00A1702F /* HBEntry.swift */,
+				69F0992819A9933200A1702F /* BridingHeaders */,
+				69F0992919A9997B00A1702F /* PocketAPICredencial.swift */,
+			);
+			path = HB2Pocket;
+			sourceTree = "<group>";
+		};
+		69F0990019A9805500A1702F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69F0990119A9805500A1702F /* Info.plist */,
+				69F0990219A9805500A1702F /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69F0991219A9805600A1702F /* HB2PocketTests */ = {
+			isa = PBXGroup;
+			children = (
+				69F0991519A9805600A1702F /* HB2PocketTests.swift */,
+				69F0991319A9805600A1702F /* Supporting Files */,
+			);
+			path = HB2PocketTests;
+			sourceTree = "<group>";
+		};
+		69F0991319A9805600A1702F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69F0991419A9805600A1702F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69F0992519A992CD00A1702F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69F0994C19A9A39A00A1702F /* AppKit.framework */,
+				69F0994A19A9A35B00A1702F /* Cocoa.framework */,
+				69F0994519A9A29600A1702F /* Foundation.framework */,
+				69F0992319A992AE00A1702F /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69F0992819A9933200A1702F /* BridingHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				69F0992719A9932800A1702F /* PocketSDK-Bridging-Header.h */,
+			);
+			name = BridingHeaders;
+			sourceTree = "<group>";
+		};
+		69F0994419A9A17900A1702F /* PocketSDK */ = {
+			isa = PBXGroup;
+			children = (
+				69F0993019A9A14500A1702F /* PocketAPI.h */,
+				69F0993119A9A14500A1702F /* PocketAPI.m */,
+				69F0993219A9A14500A1702F /* PocketAPI+NSOperation.h */,
+				69F0993319A9A14500A1702F /* PocketAPILogin.h */,
+				69F0993419A9A14500A1702F /* PocketAPILogin.m */,
+				69F0993519A9A14500A1702F /* PocketAPIOperation.h */,
+				69F0993619A9A14500A1702F /* PocketAPIOperation.m */,
+				69F0993719A9A14500A1702F /* PocketAPITypes.h */,
+				69F0993819A9A14500A1702F /* SFHFKeychainUtils.h */,
+				69F0993919A9A14500A1702F /* SFHFKeychainUtils.m */,
+			);
+			name = PocketSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69F098FC19A9805500A1702F /* HB2Pocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F0991919A9805600A1702F /* Build configuration list for PBXNativeTarget "HB2Pocket" */;
+			buildPhases = (
+				69F098F919A9805500A1702F /* Sources */,
+				69F098FA19A9805500A1702F /* Frameworks */,
+				69F098FB19A9805500A1702F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HB2Pocket;
+			productName = HB2Pocket;
+			productReference = 69F098FD19A9805500A1702F /* HB2Pocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69F0990E19A9805600A1702F /* HB2PocketTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69F0991C19A9805600A1702F /* Build configuration list for PBXNativeTarget "HB2PocketTests" */;
+			buildPhases = (
+				69F0990B19A9805600A1702F /* Sources */,
+				69F0990C19A9805600A1702F /* Frameworks */,
+				69F0990D19A9805600A1702F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69F0991119A9805600A1702F /* PBXTargetDependency */,
+			);
+			name = HB2PocketTests;
+			productName = HB2PocketTests;
+			productReference = 69F0990F19A9805600A1702F /* HB2PocketTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69F098F519A9805500A1702F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Masato Sogame";
+				TargetAttributes = {
+					69F098FC19A9805500A1702F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					69F0990E19A9805600A1702F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 69F098FC19A9805500A1702F;
+					};
+				};
+			};
+			buildConfigurationList = 69F098F819A9805500A1702F /* Build configuration list for PBXProject "HB2Pocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69F098F419A9805500A1702F;
+			productRefGroup = 69F098FE19A9805500A1702F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69F098FC19A9805500A1702F /* HB2Pocket */,
+				69F0990E19A9805600A1702F /* HB2PocketTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69F098FB19A9805500A1702F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F0990719A9805500A1702F /* Images.xcassets in Resources */,
+				69F0990A19A9805500A1702F /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F0990D19A9805600A1702F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69F098F919A9805500A1702F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69CCAB0619A9D2EC00C69974 /* json.swift in Sources */,
+				69F0995019A9A46700A1702F /* PocketAPIOperation.h in Sources */,
+				69F0995119A9A46700A1702F /* PocketAPIOperation.m in Sources */,
+				69F0994E19A9A42700A1702F /* PocketAPILogin.h in Sources */,
+				69F0994F19A9A42700A1702F /* PocketAPILogin.m in Sources */,
+				69F0994919A9A2FF00A1702F /* PocketAPI.m in Sources */,
+				69F0994819A9A2F900A1702F /* PocketAPI.h in Sources */,
+				69F0992219A9906B00A1702F /* HBEntry.swift in Sources */,
+				69F0990519A9805500A1702F /* AppDelegate.swift in Sources */,
+				69F0992A19A9997B00A1702F /* PocketAPICredencial.swift in Sources */,
+				69F0990319A9805500A1702F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69F0990B19A9805600A1702F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69F0991619A9805600A1702F /* HB2PocketTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69F0991119A9805600A1702F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69F098FC19A9805500A1702F /* HB2Pocket */;
+			targetProxy = 69F0991019A9805600A1702F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69F0990819A9805500A1702F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69F0990919A9805500A1702F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69F0991719A9805600A1702F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		69F0991819A9805600A1702F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		69F0991A19A9805600A1702F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = HB2Pocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/masato/Documents/Programming/HB2Pocket/HB2Pocket/PocketSDK-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		69F0991B19A9805600A1702F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				INFOPLIST_FILE = HB2Pocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/masato/Documents/Programming/HB2Pocket/HB2Pocket/PocketSDK-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		69F0991D19A9805600A1702F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HB2PocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HB2Pocket.app/Contents/MacOS/HB2Pocket";
+			};
+			name = Debug;
+		};
+		69F0991E19A9805600A1702F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HB2PocketTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HB2Pocket.app/Contents/MacOS/HB2Pocket";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69F098F819A9805500A1702F /* Build configuration list for PBXProject "HB2Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F0991719A9805600A1702F /* Debug */,
+				69F0991819A9805600A1702F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F0991919A9805600A1702F /* Build configuration list for PBXNativeTarget "HB2Pocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F0991A19A9805600A1702F /* Debug */,
+				69F0991B19A9805600A1702F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69F0991C19A9805600A1702F /* Build configuration list for PBXNativeTarget "HB2PocketTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69F0991D19A9805600A1702F /* Debug */,
+				69F0991E19A9805600A1702F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69F098F519A9805500A1702F /* Project object */;
+}
